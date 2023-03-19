@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header {
+    background-color: black;
+    padding: 12px -12px;
+}
+
+.nav-links {
+ display: inline-block;
+ width: 10%; 
+ text-align: center;
+}
+
+
+/*                  Font                  */
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+#hero {
+  font-family: "Myriad Set Pro";
+  text-align: center;
+  padding-top: 40px;
+  
+  
+  
+}
+#hero h1{
+  font-size: 3.45em;
+  font-weight: 600;
+  margin-bottom: 10px
+}
+#hero h2 {
+  font-size: 1.6em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#hero a {
+  text-decoration: none;
+  color:#08c;
+  font-size: 1.55em;
+  font-weight: 400;
+  
+}
+.hero-photo {
+  height: 600px;
+  background-image: url('./images/hero_iphone_13pro.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin-top: -170px;
+  margin-bottom: 20px;
+  
+}
+
+.sub-hero-images {
+ display: inline-block;
+ width: 25%;
+ height: 200px;
+ 
+}
+#watch {
+  background: url(./images/watch_large.jpg);
+  background-position: 50% 50%;
+  
+  
+}
+#ipad {
+  background: url(./images/ipad_pro_large.jpg);
+  background-position: 50% 50%;
+}
+#accessories {
+  background: url(./images/accessories_large.jpg);
+  background-position: 50% 50%;
+}
+#macbook {
+  background: url(./images/macbook_large.jpg);
+  background-position: 50% 50%;
+}
+.sub-hero-link {
+  font-family: "Myriad Set Pro";
+  font-size: 1.05em;
+  font-weight: 600;
+   
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+footer{
+ background-color: whitesmoke;
+ font-family: "Myriad Set Pro";
+  
+
+}
+footer a {
+  color: black;
+  text-decoration: none;
+  
+}
+
+.footer-links {
+  display: inline-block;
+  width: 20%;
+  list-style: none;
+  vertical-align: top;
+  padding-top: 20px;
+  
+  
+}
+#footer-links-bold{
+  font-weight: 600;
+  padding-top: 10px;
+  font-size: 0.8em;
+  
+}
+#footer-links-light {
+  font-weight: 300;
+  padding: 10px 10px 0 0;
+  font-size: 0.8em;
+
+}
+#footer-help-links1{
+  font-weight: 100;
+  font-size: 0.8em;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: solid lightgrey;
+  border-width: 1px;
+}
+#footer-help-links2{
+  font-weight: 100;
+  font-size: 0.8em;
+  padding-top: 5px;
+}
+#footer-help-links3{
+  
+  font-weight: 300;
+  font-size: 0.8em;
+  padding-left: 20px;
+  
+  
+  
+}
+
+section a {
+  border-right: 1px solid #d6d6d6;
+  margin-right: 10px;
+  padding-right: 12px;
+  
+}
+#float{
+  float: right;
+  font-weight: 300;
+  font-size: 0.8em;
+}
